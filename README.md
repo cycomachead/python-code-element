@@ -15,6 +15,7 @@ Add the script to your HTML:
 
 Then use the component in your HTML:
 
+```html
 <code-exercise-element name="exercise-name" show-tests>
 def my_function(param):
     """ A function that does something.
@@ -24,6 +25,7 @@ def my_function(param):
     """
     # YOUR CODE HERE
 </code-exercise-element>
+```
 
 The component will preserve whitespace and indentation in the code, so you can write the Python code naturally in your HTML.
 
